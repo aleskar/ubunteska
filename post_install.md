@@ -59,6 +59,9 @@ Update again...might be superfluous here
 sudo apt update
 ```
 Time to get the latest **stable** node via node version manager 
+
+Check latest version first @ https://github.com/creationix/nvm#install-script
+
 ```bash
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 ```
