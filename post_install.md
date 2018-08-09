@@ -73,6 +73,12 @@ list all the latest versions
 ```bash
 nvm ls-remote
 ```
+UPDATE: duh, might as well pipe to grep and search for "Latest" without having to scroll through the whole laundry list
+
+```bash
+nvm ls-remote | grep -i "latest"
+```
+
 Note - I made the mistake of installing 10.4.1, and wound up having many unexpected errors when setting up different stacks.  Spent more time trouble shooting than was worth it.
 install node
 ```bash
