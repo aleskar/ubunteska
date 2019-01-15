@@ -84,6 +84,12 @@ install node
 ```bash
 nvm install 8.11.3
 ```
+In order for some npm packages to work (those that require compiling code from source, for example), you will need to install the build-essential package:
+```bash
+    sudo apt install build-essential
+```
+You now have the necessary tools to work with npm packages that require compiling code from source.
+
 install express globally
 ```bash
 npm install -g express
